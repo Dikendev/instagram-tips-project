@@ -1,16 +1,20 @@
+
+
+
+
 #button {
-padding: 10px 30px 10px 30px;
-font-family: verdana;
-font-size: 17px;
-font-weight: bold;
-text-transform: uppercase;
-background-color: rgb(255, 244, 244);
-cursor: pointer;
-border-radius: 30px;
-border: none;
-box-shadow: 4px 7px 18px
- rgba(116, 116, 110, 0.237);
-transition: all 0.2s ease;
+  padding: 10px 30px 10px 30px;
+  font-family: verdana;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgb(255, 244, 244);
+  cursor: pointer;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 4px 7px 18px
+  rgba(116, 116, 110, 0.237);
+  transition: all 0.2s ease;
 }
 
 #button:hover {
@@ -24,8 +28,45 @@ transition: all 0.2s ease;
 
 
 
+
+
 button {
-  margin-left: 10rem;
+
   margin-top: 10rem;
 }
+
+
+#button-menu {
+  padding: 10px 40px;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-menu span {
+  display: inline-block;
+  
+}
+
+#button-menu::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  background-color: aquamarine;
+  opacity: 0;
+  z-index: -1;
+  transition: all 0.5s;
+
+
+}
+
+#button-menu:hover {color: aqua;
+}
+
 
